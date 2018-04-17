@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	position: relative;
+}
+.ball{
+	transition: all .3s;
+	/*width:304px;*/
+	width:509px;
+	/*height:638px;*/
+	height:413px;
+	background: -webkit-linear-gradient(60deg,red,blue,yellow,green,pink,gray,white);
+	/*border-radius: 50%;*/
+	left:400px;
+	top:50px;
+	position: absolute;
+	display: none;
+
+	/*transform-origin: center bottom;*/
+}
+.ball>img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.ball.fan>img:nth-child(1){
+	z-index: 20;
+}

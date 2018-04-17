@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        body{
+            width: 100vw;
+        }
+        .getball{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin:0 auto;
+            background: blue;
+            color:#fff;
+            font-size:40px;
+        }
+        .main{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ball{
+            width: 50vw;
+            height: 50vw;
+            border-radius: 50%;
+            /*border:1px solid gray;*/
+            text-align: center;
+            line-height: 100px;
+            margin:20px;
+        }
+        .choice1{
+            background-color: blue;
+        }
+        .choice2{
+            background-color: green;
+        }
+        .choice3{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="choice1 ball"></div>
+        <div class="choice2 ball"></div>
+        <div class="choice3 ball"></div>
+    </div>
+<!--     <button type="button" class="getball">获取球</button>
+    <div id="q1"></div>
+    <div id="q2"></div>
+    <div id="q3"></div> -->
+    <script type="text/javascript" src="./js/jquery.min.1.7.js"></script>
+    <script src="./js/socket.io.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

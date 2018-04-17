@@ -1,0 +1,14 @@
+{
+  "name": "LittleV",
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "my first control app",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jquery": "^2.2.4",
+    "socket.io": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
